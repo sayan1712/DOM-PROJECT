@@ -40,7 +40,7 @@ function b4() {
     box4.style.fontSize ="20px";
     box4.innerHTML = "YELLOW";
     box4.onclick = function() {
-        toggleBoxColor(box4, "black", "lightgray");
+        toggleBoxColor(box4, "black", "yellow");
     };   
 }
 
@@ -62,7 +62,7 @@ let box6 = document.getElementById("box6");
      box6.style.fontSize ="20px";
      box6.innerHTML = "BLACK";
      box6.onclick = function() {
-        toggleBoxColor(box6, "black", "lightgray");
+        toggleBoxColor(box6, "green", "lightgray");
     };   
  }
 // box6.onclick = function() {
